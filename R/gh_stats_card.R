@@ -1,0 +1,64 @@
+
+
+# Stats Card --------------------------------------------------------------
+
+
+#' Create GitHub Stats Card 
+#'
+#' @param username Your Github username
+#' @param hide If not `NULL`, provide stats to hide, one of: stars, commits, prs, issues, contribs.
+#' @param count_private (Boolean) `TRUE` to add the count of all your private contributions to the total commits count
+#' @param show_icons (Boolean) `TRUE` to enable icons
+#' @param theme If not `NULL`, provide build in theme names, one of: dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula.
+#'
+#' @return A character rendering GitHub Stats Card to be inserted into R Markdown "github_document"
+#' @export
+#'
+gh_stats_card <- function(username,
+                          hide = NULL,
+                          count_private = FALSE,
+                          show_icons = FALSE,
+                          theme = NULL
+){
+  
+  ## Hide Individual Stats
+  hide <- if (is.null(hide)) {
+    ""
+  } else {
+    ## Options: Stats to Hide
+    stats_nm <- match.arg(hide,
+                          choices = c("stars", "commits", "prs", "issues", "contribs")
+    )
+    paste0("&hide=", paste(stats_nm, collapse = ","))
+  }
+  
+  ## Count Private
+  count_private <- if (count_private) {
+    "&count_private=true"
+  } else {
+    ""
+  }
+  
+  ## Show Icons 
+  show_icons <- if (show_icons) {
+    "&show_icons=true"
+  } else {
+    ""
+  }
+  ## Theme
+  theme <- if (is.null(theme)) {
+    ""
+  } else {
+    ## Choose Theme
+    theme_nm <- match.arg(theme,
+                          choices = c("dark", "radical", "merko", "gruvbox", 
+                                      "tokyonight", "onedark", "cobalt", "synthwave", 
+                                      "highcontrast", "dracula")
+    )
+    paste0("&theme=", theme_nm)
+  }
+  
+  ### Build Markdown Link
+  glue::glue("[![{username} GitHub stats](https://github-readme-stats.vercel.app/api?username={username}{hide}{count_private}{show_icons}{theme})](https://github.com/{username}/github-readme-stats)")
+  
+}
