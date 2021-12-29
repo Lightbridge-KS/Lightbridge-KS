@@ -26,10 +26,11 @@ knitr::opts_chunk$set(
 
 ### 👨🏻‍💻 &nbsp;About Me
 
-👋 Hello there! I'm a medical doctor who has passion for data science, programming, and statistics.
+👋 Hello there!, I'm a medical doctor who has passion for data science, programming, and statistics.
 
-💻 My first and favorite programming language is `R`. Other languages is on my list to explore such as python and JavaScript.
+💻 My first and favorite programming language is `R`. Other languages is on the way such as Python and JavaScript.
 
+-----
 
 ### 🛠 &nbsp;Tech Stack
 

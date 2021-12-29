@@ -5,11 +5,13 @@
 
 ### 👨🏻‍💻  About Me
 
-👋 Hello there! I’m a medical doctor who has passion for data science,
+👋 Hello there!, I’m a medical doctor who has passion for data science,
 programming, and statistics.
 
 💻 My first and favorite programming language is `R`. Other languages is
-on my list to explore such as python and JavaScript.
+on the way such as Python and JavaScript.
+
+------------------------------------------------------------------------
 
 ### 🛠  Tech Stack
 
