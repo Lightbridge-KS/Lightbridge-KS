@@ -1,8 +1,16 @@
 ---
 output: github_document
+params:
+  github_username: "Lightbridge-KS"
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+here::i_am("README.Rmd")
+library(here)
+source(here("R/gh_stats_card.R"))
+```
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -19,9 +27,19 @@ knitr::opts_chunk$set(
 <!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
 
 
+```{r gh_stats_card, include=FALSE}
+# Stats Card
+my_stats_card <- gh_stats_card(params$github_username, 
+                               count_private = TRUE, 
+                               show_icons = TRUE, 
+                               theme = "radical")
+```
+
+
 <!-- GitHub Stats Card: Start -->
-[![Lightbridge-KS GitHub stats](https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&show_icons=true&theme=radical)](https://github.com/Lightbridge-KS/github-readme-stats)
+`r my_stats_card`
 <!-- GitHub Stats Card: End -->
+
 
 <!-- Github Top Languages Card: Start -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html&layout=compact)](https://github.com/Lightbridge-KS/github-readme-stats)
