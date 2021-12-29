@@ -10,6 +10,7 @@ params:
 here::i_am("README.Rmd")
 library(here)
 source(here("R/gh_stats_card.R"))
+source(here("R/gh_top_lang_card.R"))
 ```
 
 ```{r, include = FALSE}
@@ -24,10 +25,12 @@ knitr::opts_chunk$set(
 # Lightbridge-KS
 
 
+
+
+
 <!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
 
-
-```{r gh_stats_card, include=FALSE}
+```{r my_stats_card, include=FALSE}
 # Stats Card
 my_stats_card <- gh_stats_card(params$github_username, 
                                count_private = TRUE, 
@@ -41,7 +44,15 @@ my_stats_card <- gh_stats_card(params$github_username,
 <!-- GitHub Stats Card: End -->
 
 
+```{r my_top_lang_card, include=FALSE}
+# Top Language Card
+my_top_lang_card <- gh_top_lang_card(params$github_username,
+                                     hide = "html",
+                                     layout_compact = TRUE)
+```
+
+
 <!-- Github Top Languages Card: Start -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html&layout=compact)](https://github.com/Lightbridge-KS/github-readme-stats)
+`r my_top_lang_card`
 <!-- Github Top Languages Card: End -->
 

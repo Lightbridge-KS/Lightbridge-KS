@@ -13,5 +13,5 @@ stats](https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&count_
 <!-- Github Top Languages Card: Start -->
 
 [![Top
-Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html&layout=compact)](https://github.com/Lightbridge-KS/github-readme-stats)
+Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html&langs_count=5&layout=compact)](https://github.com/Lightbridge-KS/github-readme-stats)
 <!-- Github Top Languages Card: End -->
