@@ -96,6 +96,7 @@ usethis::use_package("glue")
 
 ```{r}
 usethis::use_r("gh_stats_card")
+usethis::use_r("gh_top_lang_card")
 ```
 
 
