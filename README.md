@@ -9,5 +9,5 @@
 <!-- GitHub Stats Card: End -->
 
 <!-- Github Top Languages Card: Start -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS)](https://github.com/Lightbridge-KS/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS)](https://github.com/Lightbridge-KS/github-readme-stats&hide=html)
 <!-- Github Top Languages Card: End -->
