@@ -24,35 +24,74 @@ knitr::opts_chunk$set(
 
 # Lightbridge-KS
 
+### 👨🏻‍💻 &nbsp;About Me
+
+👋 Hello there! I'm a medical doctor who has passion for data science, programming, and statistics.
+
+💻 My first and favorite programming language is `R`. Other languages is on my list to explore such as python and JavaScript.
 
 
+### 🛠 &nbsp;Tech Stack
 
+```{r logo, include=FALSE}
+shield_url <- function(slug) paste0("https://img.shields.io/badge/", slug)
+
+R_logo <- shield_url("-R-05122A?style=flat&logo=R&logoColor=276DC3")
+RStudio_logo <- shield_url("-RStudio-05122A?style=flat&logo=rstudio")
+RMarkdown_logo <- shield_url("-RMarkdown-05122A?style=flat&logo=rmarkdown")
+Shiny_logo <- shield_url("-Shiny-05122A?style=flat&logo=shiny")
+Git_logo <- shield_url("-Git-05122A?style=flat&logo=git")
+
+Github_logo <- shield_url("-GitHub-05122A?style=flat&logo=github")
+Zsh_logo <- shield_url("-Zsh-05122A?style=flat&logo=Zsh")
+```
+
+
+![R (Statistics)](`r R_logo`)&nbsp;
+![RStudio](`r RStudio_logo`)&nbsp;
+![R Markdown](`r RMarkdown_logo`)&nbsp;
+![Shiny](`r Shiny_logo`)
+
+\
+
+![Git](`r Git_logo`)&nbsp;
+![GitHub](`r Github_logo`)&nbsp;
+![Zsh](`r Zsh_logo`)&nbsp;
+
+
+### ⚙️ &nbsp;GitHub Analytics
 
 <!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
 
-```{r my_stats_card, include=FALSE}
-# Stats Card
-my_stats_card <- gh_stats_card(params$github_username, 
-                               count_private = TRUE, 
-                               show_icons = TRUE, 
-                               theme = "radical")
+```{r my_stats_card_url, include=FALSE}
+# Stats Card URL
+my_stats_card_url <- gh_stats_card_url(params$github_username,
+  count_private = TRUE,
+  show_icons = TRUE,
+  theme = "radical"
+)
 ```
 
 
-<!-- GitHub Stats Card: Start -->
-`r my_stats_card`
-<!-- GitHub Stats Card: End -->
-
-
-```{r my_top_lang_card, include=FALSE}
-# Top Language Card
-my_top_lang_card <- gh_top_lang_card(params$github_username,
-                                     hide = "html",
-                                     layout_compact = TRUE)
+```{r my_top_lang_card_url, include=FALSE}
+# Top Language Card URL
+my_top_lang_card_url <- gh_top_lang_card_url(params$github_username,
+  hide = "html",
+  layout_compact = TRUE,
+  theme = "algolia"
+)
 ```
 
+<p align="center">
+<a href="https://github.com/`r params$github_username`">
+  <img height="160em" src="`r my_stats_card_url`"/>
+  <img height="160em" src="`r my_top_lang_card_url`"/>
+</a>
+</p>
 
-<!-- Github Top Languages Card: Start -->
-`r my_top_lang_card`
-<!-- Github Top Languages Card: End -->
+-----
 
+Last Update: `r format(Sys.time(), '%d %B %Y')`
+
+<!-- Reference -->
+<!-- Inspired from: https://github.com/durgeshsamariya/awesome-github-profile-readme-templates/blob/master/AVS1508.md?plain=1 -->
