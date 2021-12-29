@@ -13,7 +13,8 @@
 #'
 #' @return A character rendering GitHub Stats Card to be inserted into R Markdown "github_document"
 #' @export
-#'
+#' @source https://github.com/anuraghazra/github-readme-stats
+#' 
 gh_stats_card <- function(username,
                           hide = NULL,
                           count_private = FALSE,
@@ -62,3 +63,6 @@ gh_stats_card <- function(username,
   glue::glue("[![{username} GitHub stats](https://github-readme-stats.vercel.app/api?username={username}{hide}{count_private}{show_icons}{theme})](https://github.com/{username}/github-readme-stats)")
   
 }
+
+
+
