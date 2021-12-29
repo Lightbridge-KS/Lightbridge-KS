@@ -79,6 +79,7 @@ usethis::use_readme_rmd()
 # usethis::use_tibble() # If package use `tbl_df` class
 usethis::use_package("here")
 usethis::use_package("usethis")
+usethis::use_package("glue")
 
 # Dev Package
 # usethis::use_dev_package("pkg", remote = "Lightbridge-KS/pkg")
@@ -91,5 +92,10 @@ usethis::use_package("usethis")
 # usethis::use_import_from("rlang", ":=") # Must have if use rlang
 ```
 
+# 5. Function
+
+```{r}
+usethis::use_r("gh_stats_card")
+```
 
 
