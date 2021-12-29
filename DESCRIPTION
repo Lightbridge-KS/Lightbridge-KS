@@ -1,0 +1,17 @@
+Package: Lightbridge-KS
+Title: Repository for Github Profile README
+Version: 0.0.0.9000
+Authors@R: 
+    person("Kittipos", "Sirivongrungson", , "ki11ip0.s.a.s@gmail.com", role = c("aut", "cre"))
+Description: This is a Rstudio project containing nessesary funtions and R
+    Markdown to create README.md.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Depends: 
+    R (>= 4.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    usethis,
+    here

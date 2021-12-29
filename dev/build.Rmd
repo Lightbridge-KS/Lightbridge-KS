@@ -1,0 +1,95 @@
+---
+title: "Build"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file()) # Set WD to Root
+here::i_am("dev/build.Rmd")
+library(here)
+```
+
+
+
+
+# 1. File Structures
+
+
+```{r fs_pkg}
+fs::dir_create("dev") # Contain R-Markdown to develop
+# fs::dir_create("my_data") # Contain my private data
+# fs::dir_create("my_R") # Contain my personal R script file 
+```
+
+# 2. Git & Build
+
+```{r use_git}
+usethis::use_git()
+```
+
+## Git Ignore
+
+```{r use_git_ignore}
+# usethis::use_git_ignore("folder_name")
+# usethis::use_git_ignore("testdata/") # ignore private Test Data in `inst/testdata`
+```
+
+
+# 3. DOCs
+
+
+## DESCRIPTION
+
+```{r DESCRIPTION}
+usethis::use_description(
+fields = list(
+  Title = "Repository for Github Profile README",
+  `Authors@R` = 'person("Kittipos", "Sirivongrungson", 
+                        email = "ki11ip0.s.a.s@gmail.com", 
+                        role = c("aut", "cre"))',
+  Description = "This is a Rstudio project containing nessesary funtions and R Markdown to create README.md.",
+  # License = "MIT + file LICENSE",
+  Depends = "R (>= 4.0)"
+  ),
+check_name = FALSE
+)
+```
+
+
+## LICENSE
+
+```{r LICENSE}
+# usethis::use_mit_license()
+```
+
+## README
+
+```{r}
+usethis::use_readme_rmd()
+```
+
+
+# 4. Dependencies
+
+## Import
+
+```{r import}
+# usethis::use_pipe()
+# usethis::use_tibble() # If package use `tbl_df` class
+usethis::use_package("here")
+usethis::use_package("usethis")
+
+# Dev Package
+# usethis::use_dev_package("pkg", remote = "Lightbridge-KS/pkg")
+```
+
+
+## Import from
+
+```{r import_from}
+# usethis::use_import_from("rlang", ":=") # Must have if use rlang
+```
+
+
+
