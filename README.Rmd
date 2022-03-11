@@ -2,6 +2,9 @@
 output: github_document
 params:
   github_username: "Lightbridge-KS"
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -24,13 +27,13 @@ knitr::opts_chunk$set(
 
 # Lightbridge-KS
 
-### 👨🏻‍💻 &nbsp;About Me
+### 👨🏻‍:computer:  About Me
 
-👋 Hello there!, I'm a medical doctor who has passion for data science, programming, and statistics.
+:wave: Hello there!, I'm a medical doctor who has a passion for data
+science and R programming.
 
-💻 My first and favorite programming language is `R`. Other languages is on the way such as Python and JavaScript.
+------------------------------------------------------------------------
 
------
 
 ### 🛠 &nbsp;Tech Stack
 
@@ -42,16 +45,17 @@ RStudio_logo <- shield_url("-RStudio-05122A?style=flat&logo=rstudio")
 RMarkdown_logo <- shield_url("-RMarkdown-05122A?style=flat&logo=rmarkdown")
 Shiny_logo <- shield_url("-Shiny-05122A?style=flat&logo=shiny")
 Git_logo <- shield_url("-Git-05122A?style=flat&logo=git")
-
 Github_logo <- shield_url("-GitHub-05122A?style=flat&logo=github")
 Zsh_logo <- shield_url("-Zsh-05122A?style=flat&logo=Zsh")
+latex_logo <- shield_url("-LaTeX-05122A?style=flat&logo=LaTeX")
 ```
 
 
 ![R (Statistics)](`r R_logo`)&nbsp;
 ![RStudio](`r RStudio_logo`)&nbsp;
 ![R Markdown](`r RMarkdown_logo`)&nbsp;
-![Shiny](`r Shiny_logo`)
+![Shiny](`r Shiny_logo`)&nbsp;
+![LaTeX](`r latex_logo`)
 
 \
 
@@ -90,9 +94,6 @@ my_top_lang_card_url <- gh_top_lang_card_url(params$github_username,
 </a>
 </p>
 
------
-
-Last Update: `r format(Sys.time(), '%d %B %Y')`
 
 <!-- Reference -->
 <!-- Inspired from: https://github.com/durgeshsamariya/awesome-github-profile-readme-templates/blob/master/AVS1508.md?plain=1 -->
