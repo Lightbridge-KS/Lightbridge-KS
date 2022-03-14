@@ -101,7 +101,7 @@ my_stats_card_url <- gh_stats_card_url(params$github_username,
 ```{r my_top_lang_card_url, include=FALSE}
 # Top Language Card URL
 my_top_lang_card_url <- gh_top_lang_card_url(params$github_username,
-  hide = "html",
+  hide = c("html", "scss"),
   layout_compact = TRUE,
   theme = "algolia"
 )

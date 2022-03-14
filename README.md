@@ -32,7 +32,7 @@ Markdown](https://img.shields.io/badge/-RMarkdown-05122A?style=flat&logo=rmarkdo
 <p align="center">
 <a href="https://github.com/Lightbridge-KS">
 <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&count_private=true&show_icons=true&theme=radical"/>
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html&langs_count=5&layout=compact&theme=algolia"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html,scss&langs_count=5&layout=compact&theme=algolia"/>
 </a>
 </p>
 <!-- Reference -->
