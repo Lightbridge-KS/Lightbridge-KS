@@ -13,18 +13,18 @@ science and R programming.
 ### 🛠  Tech Stack
 
 ![R
-(Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=R&logoColor=276DC3) 
+(Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=r&logoColor=276DC3) 
 ![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio) 
 ![R
 Markdown](https://img.shields.io/badge/-RMarkdown-05122A?style=flat&logo=rmarkdown) 
 ![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny) 
-![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=LaTeX)
+![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff)
 
   
 
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git) 
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github) 
-![Zsh](https://img.shields.io/badge/-Zsh-05122A?style=flat&logo=Zsh) 
+![Zsh](https://img.shields.io/badge/-Zsh-05122A?style=flat&logo=zsh) 
 
 ### ⚙️  GitHub Analytics
 

@@ -37,18 +37,38 @@ science and R programming.
 
 ### 🛠 &nbsp;Tech Stack
 
-```{r logo, include=FALSE}
-shield_url <- function(slug) paste0("https://img.shields.io/badge/", slug)
-
-R_logo <- shield_url("-R-05122A?style=flat&logo=R&logoColor=276DC3")
-RStudio_logo <- shield_url("-RStudio-05122A?style=flat&logo=rstudio")
-RMarkdown_logo <- shield_url("-RMarkdown-05122A?style=flat&logo=rmarkdown")
-Shiny_logo <- shield_url("-Shiny-05122A?style=flat&logo=shiny")
-Git_logo <- shield_url("-Git-05122A?style=flat&logo=git")
-Github_logo <- shield_url("-GitHub-05122A?style=flat&logo=github")
-Zsh_logo <- shield_url("-Zsh-05122A?style=flat&logo=Zsh")
-latex_logo <- shield_url("-LaTeX-05122A?style=flat&logo=LaTeX")
+```{r shield_url, include=FALSE}
+#' Create shields.io Logo
+#'
+#' @param name logo name
+#' @param color HEX color of the logo
+#'
+#' @return URL character string
+shield_url <- function(name, color = NULL){
+  
+  if(!is.null(color)){
+    color <- paste0("&logoColor=", color)
+  }
+  
+  baseURL <- "https://img.shields.io/badge/"
+  slugURL <- paste0("-", name, "-05122A?style=flat&logo=", tolower(name), color)
+  
+  paste0(baseURL, slugURL)
+}
 ```
+
+
+```{r logo, include=FALSE}
+R_logo <- shield_url("R", color = "276DC3")
+RStudio_logo <- shield_url("RStudio")
+RMarkdown_logo <- shield_url("RMarkdown")
+Shiny_logo <- shield_url("Shiny")
+Git_logo <- shield_url("Git")
+Github_logo <- shield_url("GitHub")
+Zsh_logo <- shield_url("Zsh")
+latex_logo <- shield_url("LaTeX", color = "00ffff")
+```
+
 
 
 ![R (Statistics)](`r R_logo`)&nbsp;
