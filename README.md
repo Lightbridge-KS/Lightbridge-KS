@@ -8,6 +8,8 @@
 :wave: Hello there!, I’m a medical doctor who has a passion for data
 science and R programming.
 
+:seedling: My personal blog: <https://lightbridge.netlify.app>
+
 ------------------------------------------------------------------------
 
 ### 🛠  Tech Stack
@@ -16,7 +18,7 @@ science and R programming.
 (Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=r&logoColor=276DC3) 
 ![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio) 
 ![R
-Markdown](https://img.shields.io/badge/-RMarkdown-05122A?style=flat&logo=rmarkdown) 
+Markdown](https://img.shields.io/badge/-R%20Markdown-05122A?style=flat&logo=r%20markdown) 
 ![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny) 
 ![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff)
 
@@ -26,7 +28,7 @@ Markdown](https://img.shields.io/badge/-RMarkdown-05122A?style=flat&logo=rmarkdo
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github) 
 ![Zsh](https://img.shields.io/badge/-Zsh-05122A?style=flat&logo=zsh) 
 
-### ⚙️  GitHub Analytics
+### :gear:  GitHub Analytics
 
 <!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
 <p align="center">
