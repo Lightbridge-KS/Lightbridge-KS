@@ -8,7 +8,9 @@
 :wave: Hello there!, I’m a medical doctor who has a passion for data
 science and R programming.
 
-:seedling: My personal blog: <https://lightbridge.netlify.app>
+You are welcome to visit: [**🌱 My
+Website**](https://lightbridge.netlify.app) and [**🍑 My
+Blog**](https://lightbridge-blog.netlify.app).
 
 ------------------------------------------------------------------------
 
