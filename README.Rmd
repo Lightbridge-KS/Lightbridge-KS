@@ -7,13 +7,14 @@ editor_options:
     wrap: 72
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r setup, include=FALSE}
 here::i_am("README.Rmd")
 library(here)
+library(htmltools)
 source(here("R/gh_stats_card.R"))
 source(here("R/gh_top_lang_card.R"))
+source(here("R/gh_display_cards.R"))
 ```
 
 ```{r, include = FALSE}
@@ -21,7 +22,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100🍑%"
+  out.width = "100%"
 )
 ```
 
@@ -103,12 +104,14 @@ my_top_lang_card_url <- gh_top_lang_card_url(params$github_username,
 )
 ```
 
-<p align="center">
-<a href="https://github.com/`r params$github_username`">
-  <img height="160em" src="`r my_stats_card_url`"/>
-  <img height="160em" src="`r my_top_lang_card_url`"/>
-</a>
-</p>
+```{r display-card, echo=FALSE}
+# Display Cards Side by Side
+gh_display_cards(params$github_username,
+                 src_lt = my_stats_card_url,
+                 src_rt = my_top_lang_card_url)
+```
+
+
 
 <!-- Reference -->
 

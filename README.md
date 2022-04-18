@@ -1,6 +1,4 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # Lightbridge-KS
 
 ### 👨🏻‍:computer: About Me
@@ -35,8 +33,8 @@ Markdown](https://img.shields.io/badge/-R%20Markdown-05122A?style=flat&logo=r%20
 <!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
 <p align="center">
 <a href="https://github.com/Lightbridge-KS">
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&count_private=true&show_icons=true&theme=radical"/>
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&hide=html,scss&langs_count=5&layout=compact&theme=algolia"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&amp;count_private=true&amp;show_icons=true&amp;theme=radical"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&amp;hide=html,scss&amp;langs_count=5&amp;layout=compact&amp;theme=algolia"/>
 </a>
 </p>
 <!-- Reference -->
