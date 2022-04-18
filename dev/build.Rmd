@@ -42,18 +42,18 @@ usethis::use_git()
 ## DESCRIPTION
 
 ```{r DESCRIPTION}
-usethis::use_description(
-fields = list(
-  Title = "Repository for Github Profile README",
-  `Authors@R` = 'person("Kittipos", "Sirivongrungson", 
-                        email = "ki11ip0.s.a.s@gmail.com", 
-                        role = c("aut", "cre"))',
-  Description = "This is a Rstudio project containing nessesary funtions and R Markdown to create README.md.",
-  # License = "MIT + file LICENSE",
-  Depends = "R (>= 4.0)"
-  ),
-check_name = FALSE
-)
+# usethis::use_description(
+# fields = list(
+#   Title = "Repository for Github Profile README",
+#   `Authors@R` = 'person("Kittipos", "Sirivongrungson", 
+#                         email = "ki11ip0.s.a.s@gmail.com", 
+#                         role = c("aut", "cre"))',
+#   Description = "This is a Rstudio project containing nessesary funtions and R Markdown to create README.md.",
+#   # License = "MIT + file LICENSE",
+#   Depends = "R (>= 4.0)"
+#   ),
+# check_name = FALSE
+# )
 ```
 
 
@@ -80,6 +80,7 @@ usethis::use_readme_rmd()
 usethis::use_package("here")
 usethis::use_package("usethis")
 usethis::use_package("glue")
+usethis::use_package("htmltools")
 
 # Dev Package
 # usethis::use_dev_package("pkg", remote = "Lightbridge-KS/pkg")
