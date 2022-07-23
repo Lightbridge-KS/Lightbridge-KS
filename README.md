@@ -19,8 +19,9 @@ Blog**](https://lightbridge-blog.netlify.app).
 ![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio) 
 ![R
 Markdown](https://img.shields.io/badge/-R%20Markdown-05122A?style=flat&logo=r%20markdown) 
-![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny) 
-![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff)
+![Quarto](https://img.shields.io/badge/-Quarto-05122A?style=flat&logo=quarto) 
+![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff) 
+![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny)
 
   
 

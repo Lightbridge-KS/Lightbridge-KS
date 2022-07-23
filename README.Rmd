@@ -63,6 +63,7 @@ shield_url <- function(name, color = NULL){
 R_logo <- shield_url("R", color = "276DC3")
 RStudio_logo <- shield_url("RStudio")
 RMarkdown_logo <- shield_url("R Markdown")
+Quarto_logo <- shield_url("Quarto")
 Shiny_logo <- shield_url("Shiny")
 Git_logo <- shield_url("Git")
 Github_logo <- shield_url("GitHub")
@@ -73,8 +74,9 @@ latex_logo <- shield_url("LaTeX", color = "00ffff")
 ![R (Statistics)](`r R_logo`)&nbsp;
 ![RStudio](`r RStudio_logo`)&nbsp;
 ![R Markdown](`r RMarkdown_logo`)&nbsp;
-![Shiny](`r Shiny_logo`)&nbsp;
-![LaTeX](`r latex_logo`)
+![Quarto](`r Quarto_logo`)&nbsp;
+![LaTeX](`r latex_logo`)&nbsp;
+![Shiny](`r Shiny_logo`)
 
 \
 
