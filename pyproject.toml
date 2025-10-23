@@ -1,0 +1,10 @@
+[project]
+name = "lightbridge-ks"
+version = "0.1.0"
+description = "Lightbridge-KS GitHub Profile"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dominate>=2.9.1",
+    "jupyter>=1.1.1",
+]

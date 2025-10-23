@@ -1,0 +1,115 @@
+---
+format: gfm
+jupyter: python3
+params:
+  github_username: "Lightbridge-KS"
+---
+
+```{python}
+#| include: false
+from src.shield import shield_url
+from src.gh_stats_card import gh_stats_card_url
+from src.gh_top_lang_card import gh_top_lang_card_url
+from src.gh_display_cards import gh_display_cards
+
+# GitHub username from params
+github_username = "Lightbridge-KS"
+```
+
+# Lightbridge-KS
+
+### 👨🏻 About Me
+
+Hello there!, I'm a medical doctor who has a passion for data
+science and R programming.
+
+You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app) and [**🍑 My Blog**](https://lightbridge-blog.netlify.app).
+
+------------------------------------------------------------------------
+
+### 🛠 Tech Stack
+
+```{python}
+#| include: false
+# Create shield URLs for various technologies
+
+## Programming Languages
+Python_logo = shield_url("Python")
+R_logo = shield_url("R", color="276DC3")
+
+
+## Framework
+Shiny_logo = shield_url("Shiny")
+
+## Editor
+RStudio_logo = shield_url("RStudio")
+Quarto_logo = shield_url("Quarto")
+latex_logo = shield_url("LaTeX", color="00ffff")
+
+## Tools
+Git_logo = shield_url("Git")
+Github_logo = shield_url("GitHub")
+## CLI
+Zsh_logo = shield_url("Zsh")
+```
+
+**Lang:** ![Python](`{python} Python_logo`)&nbsp;
+![R (Statistics)](`{python} R_logo`)
+
+![Quarto](`{python} Quarto_logo`)&nbsp;
+![LaTeX](`{python} latex_logo`)&nbsp;
+![Shiny](`{python} Shiny_logo`)
+
+\
+
+![RStudio](`{python} RStudio_logo`)&nbsp;
+
+\
+
+![Git](`{python} Git_logo`)&nbsp;
+![GitHub](`{python} Github_logo`)&nbsp;
+![Zsh](`{python} Zsh_logo`)&nbsp;
+
+### ⚙️ GitHub Analytics
+
+<!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
+
+```{python}
+#| include: false
+# Stats Card URL
+my_stats_card_url = gh_stats_card_url(
+    github_username,
+    count_private=True,
+    show_icons=True,
+    theme="radical"
+)
+```
+
+```{python}
+#| include: false
+# Top Language Card URL
+my_top_lang_card_url = gh_top_lang_card_url(
+    github_username,
+    hide=["html", "scss"],
+    layout_compact=True,
+    theme="algolia"
+)
+```
+
+```{python}
+#| echo: false
+#| output: asis
+# Display Cards Side by Side
+cards_html = gh_display_cards(
+    github_username,
+    src_lt=my_stats_card_url,
+    src_rt=my_top_lang_card_url
+)
+print(cards_html)
+```
+
+
+
+<!-- Reference -->
+
+<!-- Inspired from: https://github.com/durgeshsamariya/awesome-github-profile-readme-templates/blob/master/AVS1508.md?plain=1 -->
