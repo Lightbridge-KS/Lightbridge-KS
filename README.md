@@ -3,8 +3,8 @@
 
 ### 👨🏻 About Me
 
-Hello there!, I’m a medical doctor who has a passion for data science
-and R programming.
+Hello there!, I’m a medical doctor who has a passion for software
+development and data science.
 
 You are welcome to visit: [**🌱 My
 Website**](https://lightbridge.netlify.app) and [**🍑 My
@@ -20,6 +20,7 @@ Blog**](https://lightbridge-blog.netlify.app).
 ![R
 (Statistics)](https://img.shields.io/badge/-05122A?style=flat&logo=r&logoColor=276DC3) 
 ![Dart](https://img.shields.io/badge/-Dart-05122A?style=flat&logo=dart&logoColor=2fb7f6) 
+![JS](https://img.shields.io/badge/-05122A?style=flat&logo=javascript) 
 ![TS](https://img.shields.io/badge/-05122A?style=flat&logo=typescript) 
 ![CSharp](https://img.shields.io/badge/-C%23-05122A?style=flat&logo=csharp&logoColor=00A300) 
 

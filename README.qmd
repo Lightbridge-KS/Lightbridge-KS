@@ -20,8 +20,7 @@ github_username = "Lightbridge-KS"
 
 ### 👨🏻 About Me
 
-Hello there!, I'm a medical doctor who has a passion for data
-science and R programming.
+Hello there!, I’m a medical doctor who has a passion for software development and data science.
 
 You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app) and [**🍑 My Blog**](https://lightbridge-blog.netlify.app).
 
@@ -37,6 +36,7 @@ You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app)
 Python_logo = shield_url("python", name_disp="Python")
 R_logo = shield_url("r", color="#276DC3")
 Dart_logo = shield_url("dart", name_disp = "Dart", color="#2fb7f6")
+JS_logo = shield_url("javascript")
 TS_logo = shield_url("typescript")
 CS_logo = shield_url("csharp", name_disp="C%23", color="#00A300")
 
@@ -66,6 +66,7 @@ Zsh_logo = shield_url("zsh", name_disp="Zsh")
 ![Python](`{python} Python_logo`)&nbsp;
 ![R (Statistics)](`{python} R_logo`)&nbsp;
 ![Dart](`{python} Dart_logo`)&nbsp;
+![JS](`{python} JS_logo`)&nbsp;
 ![TS](`{python} TS_logo`)&nbsp;
 ![CSharp](`{python} CS_logo`)&nbsp;
 
