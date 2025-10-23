@@ -14,24 +14,36 @@ Blog**](https://lightbridge-blog.netlify.app).
 
 ### 🛠 Tech Stack
 
-**Lang:**
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python.png) 
+**Languages:**
+
+![Python](https://img.shields.io/badge/-05122A?style=flat&logo=python) 
 ![R
-(Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=r&logoColor=276DC3.png)
-
-![Quarto](https://img.shields.io/badge/-Quarto-05122A?style=flat&logo=quarto.png) 
-![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff.png) 
-![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny.png)
-
-  
-
-![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio.png) 
+(Statistics)](https://img.shields.io/badge/-05122A?style=flat&logo=r&logoColor=276DC3) 
+![Dart](https://img.shields.io/badge/-Dart-05122A?style=flat&logo=dart&logoColor=2fb7f6) 
+![TS](https://img.shields.io/badge/-05122A?style=flat&logo=typescript) 
+![CSharp](https://img.shields.io/badge/-C%23-05122A?style=flat&logo=csharp&logoColor=00A300) 
 
   
 
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git.png) 
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github.png) 
-![Zsh](https://img.shields.io/badge/-Zsh-05122A?style=flat&logo=zsh.png) 
+**App framework:**
+
+![Flutter](https://img.shields.io/badge/-05122A?style=flat&logo=flutter&logoColor=65dbff) 
+![React](https://img.shields.io/badge/-05122A?style=flat&logo=react) 
+![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny) 
+![.NET](https://img.shields.io/badge/-05122A?style=flat&logo=dotnet)
+
+**Technical Docs:**
+
+![Quarto](https://img.shields.io/badge/-Quarto-05122A?style=flat&logo=quarto&logoColor=82b4de) 
+![LaTeX](https://img.shields.io/badge/-LaTeX-05122A?style=flat&logo=latex&logoColor=00ffff) 
+
+  
+
+**Tools:**
+
+![Git](https://img.shields.io/badge/-05122A?style=flat&logo=git) 
+![GitHub](https://img.shields.io/badge/-05122A?style=flat&logo=github) 
+![Zsh](https://img.shields.io/badge/-Zsh-05122A?style=flat&logo=zsh) 
 
 ### ⚙️ GitHub Analytics
 

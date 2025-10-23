@@ -1,32 +1,23 @@
 """Create shields.io badge URLs for GitHub profile README."""
 
 
-def shield_url(name: str, color: str | None = None) -> str:
+def shield_url(
+    name_logo: str, name_disp: str | None = None, color: str | None = None
+) -> str:
     """
     Create shields.io logo badge URL.
-
-    Parameters
-    ----------
-    name : str
-        Logo name (e.g., "R", "Python", "GitHub")
-    color : str | None, optional
-        HEX color code for the logo (without '#'), by default None
-
-    Returns
-    -------
-    str
-        Full URL to shields.io badge
-
-    Examples
-    --------
-    >>> shield_url("Python")
-    'https://img.shields.io/badge/-Python-05122A?style=flat&logo=python'
-
-    >>> shield_url("Python", color="3776AB")
-    'https://img.shields.io/badge/-Python-05122A?style=flat&logo=python&logoColor=3776AB'
     """
     base_url = "https://img.shields.io/badge/"
-    logo_color = f"&logoColor={color}" if color else ""
-    slug_url = f"-{name}-05122A?style=flat&logo={name.lower()}{logo_color}"
+
+    name_disp_url = f"-{name_disp}" if name_disp else ""
+
+    # Remove leading '#' from hex color if present
+    if color:
+        color_cleaned = color.removeprefix("#")
+        logo_color = f"&logoColor={color_cleaned}"
+    else:
+        logo_color = ""
+
+    slug_url = f"{name_disp_url}-05122A?style=flat&logo={name_logo.lower()}{logo_color}"
 
     return base_url + slug_url

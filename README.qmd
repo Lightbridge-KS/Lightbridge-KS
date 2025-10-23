@@ -34,37 +34,58 @@ You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app)
 # Create shield URLs for various technologies
 
 ## Programming Languages
-Python_logo = shield_url("Python")
-R_logo = shield_url("R", color="276DC3")
-
+Python_logo = shield_url("python")
+R_logo = shield_url("r", color="#276DC3")
+Dart_logo = shield_url("dart", name_disp = "Dart", color="#2fb7f6")
+TS_logo = shield_url("typescript")
+CS_logo = shield_url("csharp", name_disp="C%23", color="#00A300")
 
 ## Framework
-Shiny_logo = shield_url("Shiny")
+Flutter_logo = shield_url("flutter", color="#65dbff")
+Shiny_logo = shield_url("shiny", name_disp = "Shiny")
+DotNet_logo = shield_url("dotnet")
+React_logo = shield_url("react")
 
 ## Editor
-RStudio_logo = shield_url("RStudio")
-Quarto_logo = shield_url("Quarto")
-latex_logo = shield_url("LaTeX", color="00ffff")
+RStudio_logo = shield_url("rstudio", name_disp = "RStudio")
+
+## Technical Docs
+Quarto_logo = shield_url("quarto", name_disp = "Quarto", color="#82b4de")
+latex_logo = shield_url("latex", name_disp = "LaTeX", color="00ffff")
+vscode_logo = shield_url("vscode", name_disp="VScode")
 
 ## Tools
-Git_logo = shield_url("Git")
-Github_logo = shield_url("GitHub")
+Git_logo = shield_url("git")
+Github_logo = shield_url("github")
 ## CLI
-Zsh_logo = shield_url("Zsh")
+Zsh_logo = shield_url("zsh", name_disp="Zsh")
 ```
 
-**Lang:** ![Python](`{python} Python_logo`)&nbsp;
-![R (Statistics)](`{python} R_logo`)
+**Languages:** 
+
+![Python](`{python} Python_logo`)&nbsp;
+![R (Statistics)](`{python} R_logo`)&nbsp;
+![Dart](`{python} Dart_logo`)&nbsp;
+![TS](`{python} TS_logo`)&nbsp;
+![CSharp](`{python} CS_logo`)&nbsp;
+
+\
+
+**App framework:**
+
+![Flutter](`{python} Flutter_logo`)&nbsp;
+![React](`{python} React_logo`)&nbsp;
+![Shiny](`{python} Shiny_logo`)&nbsp;
+![.NET](`{python} DotNet_logo`)
+
+**Technical Docs:**
 
 ![Quarto](`{python} Quarto_logo`)&nbsp;
 ![LaTeX](`{python} latex_logo`)&nbsp;
-![Shiny](`{python} Shiny_logo`)
 
 \
 
-![RStudio](`{python} RStudio_logo`)&nbsp;
-
-\
+**Tools:**
 
 ![Git](`{python} Git_logo`)&nbsp;
 ![GitHub](`{python} Github_logo`)&nbsp;
