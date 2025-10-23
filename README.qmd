@@ -34,17 +34,17 @@ You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app)
 # Create shield URLs for various technologies
 
 ## Programming Languages
-Python_logo = shield_url("python")
+Python_logo = shield_url("python", name_disp="Python")
 R_logo = shield_url("r", color="#276DC3")
 Dart_logo = shield_url("dart", name_disp = "Dart", color="#2fb7f6")
 TS_logo = shield_url("typescript")
 CS_logo = shield_url("csharp", name_disp="C%23", color="#00A300")
 
 ## Framework
-Flutter_logo = shield_url("flutter", color="#65dbff")
+Flutter_logo = shield_url("flutter", name_disp= "Flutter", color="#65dbff")
 Shiny_logo = shield_url("shiny", name_disp = "Shiny")
 DotNet_logo = shield_url("dotnet")
-React_logo = shield_url("react")
+React_logo = shield_url("react", name_disp="React")
 
 ## Editor
 RStudio_logo = shield_url("rstudio", name_disp = "RStudio")

@@ -16,7 +16,7 @@ Blog**](https://lightbridge-blog.netlify.app).
 
 **Languages:**
 
-![Python](https://img.shields.io/badge/-05122A?style=flat&logo=python) 
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python) 
 ![R
 (Statistics)](https://img.shields.io/badge/-05122A?style=flat&logo=r&logoColor=276DC3) 
 ![Dart](https://img.shields.io/badge/-Dart-05122A?style=flat&logo=dart&logoColor=2fb7f6) 
@@ -27,8 +27,8 @@ Blog**](https://lightbridge-blog.netlify.app).
 
 **App framework:**
 
-![Flutter](https://img.shields.io/badge/-05122A?style=flat&logo=flutter&logoColor=65dbff) 
-![React](https://img.shields.io/badge/-05122A?style=flat&logo=react) 
+![Flutter](https://img.shields.io/badge/-Flutter-05122A?style=flat&logo=flutter&logoColor=65dbff) 
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react) 
 ![Shiny](https://img.shields.io/badge/-Shiny-05122A?style=flat&logo=shiny) 
 ![.NET](https://img.shields.io/badge/-05122A?style=flat&logo=dotnet)
 
