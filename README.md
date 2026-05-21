@@ -101,13 +101,12 @@ Blog**](https://lightbridge-blog.netlify.app).
 
 ### ⚙️ GitHub Analytics
 
-<!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
+<!-- Activity Graph by "https://github.com/Ashutosh00710/github-readme-activity-graph" -->
 
 <p align="center">
 
 <a href="https://github.com/Lightbridge-KS">
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Lightbridge-KS&amp;count_private=true&amp;show_icons=true&amp;theme=radical">
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lightbridge-KS&amp;hide=html,scss&amp;langs_count=5&amp;layout=compact&amp;theme=algolia">
+<img alt="Lightbridge-KS GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Lightbridge-KS&theme=tokyo-night">
 </a>
 </p>
 

@@ -8,12 +8,6 @@ params:
 ```{python}
 #| include: false
 from src.shield import shield_url
-from src.gh_stats_card import gh_stats_card_url
-from src.gh_top_lang_card import gh_top_lang_card_url
-from src.gh_display_cards import gh_display_cards
-
-# GitHub username from params
-github_username = "Lightbridge-KS"
 ```
 
 # Lightbridge-KS
@@ -127,41 +121,13 @@ Zsh_logo = shield_url("zsh", name_disp="Zsh")
 
 ### ⚙️ GitHub Analytics
 
-<!-- Github Stats by "https://github.com/anuraghazra/github-readme-stats" -->
+<!-- Activity Graph by "https://github.com/Ashutosh00710/github-readme-activity-graph" -->
 
-```{python}
-#| include: false
-# Stats Card URL
-my_stats_card_url = gh_stats_card_url(
-    github_username,
-    count_private=True,
-    show_icons=True,
-    theme="radical"
-)
-```
-
-```{python}
-#| include: false
-# Top Language Card URL
-my_top_lang_card_url = gh_top_lang_card_url(
-    github_username,
-    hide=["html", "scss"],
-    layout_compact=True,
-    theme="algolia"
-)
-```
-
-```{python}
-#| echo: false
-#| output: asis
-# Display Cards Side by Side
-cards_html = gh_display_cards(
-    github_username,
-    src_lt=my_stats_card_url,
-    src_rt=my_top_lang_card_url
-)
-print(cards_html)
-```
+<p align="center">
+<a href="https://github.com/Lightbridge-KS">
+<img alt="Lightbridge-KS GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Lightbridge-KS&theme=tokyo-night">
+</a>
+</p>
 
 
 
