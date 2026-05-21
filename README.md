@@ -15,14 +15,14 @@ Blog**](https://lightbridge-blog.netlify.app).
 
 ### Projects
 
-#### 🤖 Agent Tools
+#### Agent Tools
 
 - 🧩
   **[openclaw-notebook-tools](https://github.com/Lightbridge-KS/openclaw-notebook-tools)** -
   Jupyter Notebook plugin tools for OpenClaw agents: create, read, list,
   search, edit, and delete cells (Experimental).
 
-#### 🩻 Radiology Tools
+#### Radiology Tools
 
 **Apps**
 
@@ -39,7 +39,7 @@ Blog**](https://lightbridge-blog.netlify.app).
 - 🧰 **[slicer-cli](https://github.com/Lightbridge-KS/slicer-cli)** -
   Unofficial Python CLI for interacting with 3D Slicer Web Server.
 
-#### 📦 Libraries & Packages
+#### Libraries & Packages
 
 - 🇹🇭 **[thaipdf](https://github.com/Lightbridge-KS/thaipdf)** - R
   Markdown and PDF tooling for Thai-language documents.
@@ -47,7 +47,7 @@ Blog**](https://lightbridge-blog.netlify.app).
   **[radreportparser](https://github.com/Lightbridge-KS/radreportparser)** -
   Regex-based parser for common radiology report text.
 
-#### 📚 Notes & Books
+#### Notes & Books
 
 - 🏗️
   **[software-design-explore](https://github.com/Lightbridge-KS/software-design-explore)** -
