@@ -42,6 +42,7 @@ You are welcome to visit: [**🌱 My Website**](https://lightbridge.netlify.app)
 
 - 🇹🇭 **[thaipdf](https://github.com/Lightbridge-KS/thaipdf)** - R Markdown and PDF tooling for Thai-language documents.
 - 🔎 **[radreportparser](https://github.com/Lightbridge-KS/radreportparser)** - Regex-based parser for common radiology report text.
+- 📁 **[pyrfs](https://github.com/Lightbridge-KS/pyrfs)** - Pythonic filesystem ergonomics inspired by R's fs
 
 #### Notes & Books
 
