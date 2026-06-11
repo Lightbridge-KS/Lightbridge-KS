@@ -46,6 +46,8 @@ Blog**](https://lightbridge-blog.netlify.app).
 - 🔎
   **[radreportparser](https://github.com/Lightbridge-KS/radreportparser)** -
   Regex-based parser for common radiology report text.
+- 📁 **[pyrfs](https://github.com/Lightbridge-KS/pyrfs)** - Pythonic
+  filesystem ergonomics inspired by R’s fs
 
 #### Notes & Books
 
